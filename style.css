@@ -1,0 +1,52 @@
+body {
+  background:linear-gradient(250deg, lightblue, yellow, green);
+  text-align:center;
+  font-family: 'Lobster', cursive;
+}
+#title {
+  font-family:Lobster;
+  letter-spacing:0.3rem;
+  border:3px solid white;
+  border-radius:10px;
+  display:block;
+  height:auto;
+  margin:5% 22% 0 22%;
+}
+#image {
+  border:3px solid;
+}
+img {
+  border-radius:25%;
+  max-width:100%;
+  display: block; 
+  height: auto;
+  margin:auto;
+}
+#img-div {
+}
+#img-caption {
+  font-size: 20px;
+  font-weight:bold;
+}
+#tribute-info {
+  margin:5% 15%
+}
+#lista{
+  text-align:left;
+  width:100%;
+  font-size:18px;
+  letter-spacing:1px;
+  word-spacing:0.2rem;
+  font-weight:700;
+}
+@media (max-width:780px) {
+  img {
+    width:100vmin;
+  }
+  #title {border:none;}
+}
+@media (max-width:550px) {
+  img {
+    width:70vmin;
+  }
+}
