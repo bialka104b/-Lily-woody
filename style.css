@@ -22,8 +22,6 @@ img {
   height: auto;
   margin:auto;
 }
-#img-div {
-}
 #img-caption {
   font-size: 20px;
   font-weight:bold;
@@ -31,7 +29,7 @@ img {
 #tribute-info {
   margin:5% 15%
 }
-#lista{
+#list{
   text-align:left;
   width:100%;
   font-size:18px;
